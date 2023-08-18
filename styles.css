@@ -1,0 +1,160 @@
+body{
+    padding:20px;
+    background-color:#F3F8FF;
+}
+
+.headerWrap{
+    background-color:#F3F8FF;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-links{
+    display:flex;
+    justify-content: space-around;
+   
+}
+.header-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-links a:active{
+ color: #04A8FF;
+ font-weight: bold;
+}
+
+.log-in{
+background-color: none;
+text-decoration: underline;
+text-decoration-color: #04A8FF;
+border:none;
+padding:15px;
+}
+
+.sign-in{
+color: #04A8FF;
+background-color: #DEF4FE;
+border:none;
+padding:15px;
+}
+
+
+.header-buttons{
+    justify-self: flex-end;
+ 
+}
+
+.hero-section{
+    background-color:#F3F8FF;
+    margin-top: 10px;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-text {
+    align-self: center;
+    position: relative;
+}
+
+.hero-text h1{
+    font-size: 2.5em;
+}
+.fa-solid{
+    color:#04A8FF;
+}
+
+.small-hat{
+    position: absolute;
+    float: right;
+    top: 100px;
+    left: 270px;
+    width:100px;
+}
+
+
+
+/*
+.big-hat{
+    width:200px;
+}
+ .item-1{
+   width:250px;
+}
+
+*/
+
+
+.hero-icons img{
+    width:200px;
+}
+
+
+.hero-icons {
+    display:grid;
+    grid-template-columns: 160px 1fr;
+}
+
+.item-2{
+  margin-top: 50px;
+}
+
+.item-3{
+    position: relative;
+    left: 230px;
+    bottom:50px;
+    
+  }
+
+
+  /*About Section */
+
+  .about-section{
+    padding-top: 30px;
+   /* margin-top: 30px; ;
+    margin-bottom:30px ;*/
+    background-color: white;
+  }
+
+  .about-heading{
+    color: #04A8FF;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .about-wrap{
+    padding-top: 30px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-text{
+    text-align: left;
+    display: grid;
+    row-gap: 8px;;
+  }
+
+  .about-text h1{
+    margin:0;
+  }
+
+  .found{
+    background-color: white;
+    padding:40px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+  }
+
+  .right-found {
+   
+   
+  }
+
+
+  .left-found img{
+       width:500px;
+    
+  }
